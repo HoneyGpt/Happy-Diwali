@@ -120,3 +120,102 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .animate-spin-slow {
+    animation: spin 8s linear infinite;
+  }
+  
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+  
+  .animate-flicker {
+    animation: flicker 1.5s ease-in-out infinite alternate;
+  }
+  
+  .animate-flicker-inner {
+    animation: flicker-inner 1s ease-in-out infinite alternate;
+  }
+  
+  .animate-glitter {
+    animation: glitter 2s ease-out forwards;
+  }
+  
+  .animate-greeting {
+    animation: greeting 3s ease-out forwards;
+  }
+  
+  .bg-gradient-radial {
+    background: radial-gradient(circle, var(--tw-gradient-stops));
+  }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes flicker {
+  0% { 
+    opacity: 0.9; 
+    transform: rotate(-2deg) scale(1);
+  }
+  100% { 
+    opacity: 1; 
+    transform: rotate(2deg) scale(1.1);
+  }
+}
+
+@keyframes flicker-inner {
+  0%, 100% { 
+    opacity: 0.8; 
+    transform: translateX(-50%) scale(1);
+  }
+  50% { 
+    opacity: 1; 
+    transform: translateX(-50%) scale(1.2);
+  }
+}
+
+@keyframes glitter {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(var(--tx), var(--ty)) scale(0.3);
+  }
+}
+
+@keyframes greeting {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(20px) scale(0.8);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0) scale(1);
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% { 
+    opacity: 0.3; 
+    transform: scale(1);
+  }
+  50% { 
+    opacity: 1; 
+    transform: scale(1.2);
+  }
+}

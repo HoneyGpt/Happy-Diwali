@@ -14,24 +14,29 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Z.ai Code Scaffold - AI-Powered Development",
-  description: "Modern Next.js scaffold optimized for AI-powered development with Z.ai. Built with TypeScript, Tailwind CSS, and shadcn/ui.",
-  keywords: ["Z.ai", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui", "AI development", "React"],
-  authors: [{ name: "Z.ai Team" }],
+  title: "Happy Diwali - Festival of Lights",
+  description: "Celebrate Diwali with beautiful interactive fireworks, traditional diya lamps, and stunning visual effects. Experience the Festival of Lights like never before.",
+  keywords: ["Diwali", "Festival of Lights", "Fireworks", "Diya", "Indian Festival", "Celebration", "Interactive"],
+  authors: [{ name: "Diwali Celebration" }],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: [
+      { url: "/favicon.png", sizes: "1024x1024", type: "image/png" },
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    shortcut: "/favicon.png",
+    apple: [
+      { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
   },
   openGraph: {
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
-    url: "https://chat.z.ai",
-    siteName: "Z.ai",
+    title: "Happy Diwali - Festival of Lights",
+    description: "Celebrate Diwali with beautiful interactive fireworks and stunning visual effects",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Z.ai Code Scaffold",
-    description: "AI-powered development with modern React stack",
+    title: "Happy Diwali - Festival of Lights",
+    description: "Celebrate Diwali with beautiful interactive fireworks and stunning visual effects",
   },
 };
 

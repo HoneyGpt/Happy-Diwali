@@ -1,141 +1,193 @@
-# 🚀 Welcome to Z.ai Code Scaffold
+# Hyperrealistic Happy Diwali Experience
 
-A modern, production-ready web application scaffold powered by cutting-edge technologies, designed to accelerate your development with [Z.ai](https://chat.z.ai)'s AI-powered coding assistance.
+A stunning, interactive Diwali celebration web experience built with Next.js 15, TypeScript, and Tailwind CSS. This project creates a mesmerizing visual display of Diwali traditions with realistic fireworks, animated diya lamps, and beautiful atmospheric effects.
 
-## ✨ Technology Stack
+## ✨ Features
 
-This scaffold provides a robust foundation built with:
+### 🎆 Interactive Fireworks System
+- Click anywhere to launch colorful fireworks
+- Realistic particle physics with gravity and decay
+- Multiple vibrant colors and explosion patterns
+- Smoke effects for added realism
+- Auto-fireworks mode for continuous celebration
 
-### 🎯 Core Framework
-- **⚡ Next.js 15** - The React framework for production with App Router
-- **📘 TypeScript 5** - Type-safe JavaScript for better developer experience
-- **🎨 Tailwind CSS 4** - Utility-first CSS framework for rapid UI development
+### 🪔 Realistic Diya Lamps
+- Animated flames with flickering effects
+- Multiple diya lamps floating gently
+- Realistic oil lamp design with shadows
+- Glowing effects and reflections
+- Responsive sizing for all devices
 
-### 🧩 UI Components & Styling
-- **🧩 shadcn/ui** - High-quality, accessible components built on Radix UI
-- **🎯 Lucide React** - Beautiful & consistent icon library
-- **🌈 Framer Motion** - Production-ready motion library for React
-- **🎨 Next Themes** - Perfect dark mode in 2 lines of code
+### 🌙 Atmospheric Elements
+- Beautiful moon with crater details
+- Animated clouds drifting across the sky
+- Cityscape silhouette with illuminated windows
+- Water surface with shimmering reflections
+- Twinkling stars in the night sky
 
-### 📋 Forms & Validation
-- **🎣 React Hook Form** - Performant forms with easy validation
-- **✅ Zod** - TypeScript-first schema validation
+### 🎨 Visual Themes
+- **Night Theme**: Classic midnight blue with purple accents
+- **Dawn Theme**: Soft purples and pinks for early morning
+- **Sunset Theme**: Warm oranges and reds for evening glow
 
-### 🔄 State Management & Data Fetching
-- **🐻 Zustand** - Simple, scalable state management
-- **🔄 TanStack Query** - Powerful data synchronization for React
-- **🌐 Axios** - Promise-based HTTP client
+### 🎮 Interactive Controls
+- Toggle auto-fireworks for continuous display
+- Sound effects toggle (using Web Audio API)
+- Theme selector for different moods
+- Real-time statistics display
 
-### 🗄️ Database & Backend
-- **🗄️ Prisma** - Next-generation Node.js and TypeScript ORM
-- **🔐 NextAuth.js** - Complete open-source authentication solution
+### 📱 Responsive Design
+- Mobile-optimized performance
+- Reduced particle count on mobile devices
+- Touch-friendly controls
+- Adaptive UI elements
+- Optimized animations for all screen sizes
 
-### 🎨 Advanced UI Features
-- **📊 TanStack Table** - Headless UI for building tables and datagrids
-- **🖱️ DND Kit** - Modern drag and drop toolkit for React
-- **📊 Recharts** - Redefined chart library built with React and D3
-- **🖼️ Sharp** - High performance image processing
+## 🛠️ Technology Stack
 
-### 🌍 Internationalization & Utilities
-- **🌍 Next Intl** - Internationalization library for Next.js
-- **📅 Date-fns** - Modern JavaScript date utility library
-- **🪝 ReactUse** - Collection of essential React hooks for modern development
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript 5
+- **Styling**: Tailwind CSS 4
+- **UI Components**: Custom components with shadcn/ui patterns
+- **Animations**: CSS animations and Canvas API
+- **Audio**: Web Audio API for sound effects
+- **Performance**: Optimized for mobile and desktop
 
-## 🎯 Why This Scaffold?
+## 🚀 Getting Started
 
-- **🏎️ Fast Development** - Pre-configured tooling and best practices
-- **🎨 Beautiful UI** - Complete shadcn/ui component library with advanced interactions
-- **🔒 Type Safety** - Full TypeScript configuration with Zod validation
-- **📱 Responsive** - Mobile-first design principles with smooth animations
-- **🗄️ Database Ready** - Prisma ORM configured for rapid backend development
-- **🔐 Auth Included** - NextAuth.js for secure authentication flows
-- **📊 Data Visualization** - Charts, tables, and drag-and-drop functionality
-- **🌍 i18n Ready** - Multi-language support with Next Intl
-- **🚀 Production Ready** - Optimized build and deployment settings
-- **🤖 AI-Friendly** - Structured codebase perfect for AI assistance
+1. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-## 🚀 Quick Start
+2. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
-```bash
-# Install dependencies
-npm install
+3. **Open your browser**:
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-# Start development server
-npm run dev
+4. **Enjoy the celebration**:
+   - Click anywhere to launch fireworks
+   - Use the control panel to customize your experience
+   - Try different themes and settings
 
-# Build for production
-npm run build
+## 🎯 How to Use
 
-# Start production server
-npm start
-```
+### Launching Fireworks
+- **Manual**: Click anywhere on the screen to launch a firework at that location
+- **Automatic**: Toggle "Auto Fireworks" in the control panel for continuous display
 
-Open [http://localhost:3000](http://localhost:3000) to see your application running.
+### Customizing Experience
+- **Themes**: Choose between Night, Dawn, and Sunset themes
+- **Sound**: Toggle sound effects on/off (experimental)
+- **Performance**: Automatically optimized for your device
 
-## 🤖 Powered by Z.ai
+### Mobile Experience
+- Touch to launch fireworks
+- Compact controls for easy access
+- Optimized performance for smooth animation
 
-This scaffold is optimized for use with [Z.ai](https://chat.z.ai) - your AI assistant for:
+## 🎨 Visual Effects
 
-- **💻 Code Generation** - Generate components, pages, and features instantly
-- **🎨 UI Development** - Create beautiful interfaces with AI assistance  
-- **🔧 Bug Fixing** - Identify and resolve issues with intelligent suggestions
-- **📝 Documentation** - Auto-generate comprehensive documentation
-- **🚀 Optimization** - Performance improvements and best practices
+### Fireworks Physics
+- Realistic particle trajectories
+- Gravity simulation
+- Air resistance effects
+- Multi-layered glow effects
+- Color variations and gradients
 
-Ready to build something amazing? Start chatting with Z.ai at [chat.z.ai](https://chat.z.ai) and experience the future of AI-powered development!
+### Diya Animation
+- Natural flame flickering
+- Floating animation
+- Oil and wick rendering
+- Glow and shadow effects
+- Water reflections
 
-## 📁 Project Structure
+### Atmospheric Details
+- Parallax star field
+- Moon surface texture
+- Cloud movement
+- City lights
+- Water shimmer effects
 
+## 📊 Performance Optimizations
+
+- **Mobile Detection**: Automatically reduces particle count on mobile devices
+- **Canvas Optimization**: Efficient rendering with requestAnimationFrame
+- **Memory Management**: Proper cleanup of animations and event listeners
+- **Responsive Images**: Scales appropriately for different screen sizes
+- **Lazy Loading**: Components load as needed
+
+## 🎵 Audio Features
+
+- **Web Audio API**: Procedural sound generation
+- **Firework Sounds**: Explosion effects synthesized in real-time
+- **Ambient Audio**: Background atmosphere (optional)
+- **Performance**: Optimized audio processing
+
+## 🌟 Special Effects
+
+- **Loading Animation**: Beautiful entrance animation
+- **Glitter Effects**: Sparkling particles around the greeting
+- **Theme Transitions**: Smooth color transitions
+- **Interactive Feedback**: Visual responses to user actions
+- **Statistics Display**: Real-time performance metrics
+
+## 🎭 Cultural Elements
+
+This project celebrates Diwali, the Festival of Lights, with authentic visual elements:
+- **Diya Lamps**: Traditional oil lamps used in Diwali celebrations
+- **Fireworks**: Symbolize the triumph of light over darkness
+- **Colors**: Gold, orange, and red - traditional Diwali colors
+- **Atmosphere**: Joyful and celebratory mood
+
+## 🔧 Development
+
+### Project Structure
 ```
 src/
-├── app/                 # Next.js App Router pages
-├── components/          # Reusable React components
-│   └── ui/             # shadcn/ui components
-├── hooks/              # Custom React hooks
-└── lib/                # Utility functions and configurations
+├── app/
+│   ├── page.tsx          # Main page component
+│   ├── layout.tsx        # Root layout
+│   └── globals.css       # Global styles
+├── components/
+│   ├── Firework.tsx      # Firework component
+│   ├── Diya.tsx          # Diya lamp component
+│   ├── Moon.tsx          # Moon component
+│   ├── Cityscape.tsx     # City background
+│   ├── Greeting.tsx      # Welcome message
+│   ├── SoundEffects.tsx  # Audio system
+│   └── InteractiveControls.tsx # Control panel
 ```
 
-## 🎨 Available Features & Components
+### Key Features
+- **TypeScript**: Full type safety
+- **React Hooks**: Modern React patterns
+- **Canvas API**: Advanced graphics rendering
+- **CSS Animations**: Smooth, performant animations
+- **Responsive Design**: Mobile-first approach
 
-This scaffold includes a comprehensive set of modern web development tools:
+## 🎯 Browser Support
 
-### 🧩 UI Components (shadcn/ui)
-- **Layout**: Card, Separator, Aspect Ratio, Resizable Panels
-- **Forms**: Input, Textarea, Select, Checkbox, Radio Group, Switch
-- **Feedback**: Alert, Toast (Sonner), Progress, Skeleton
-- **Navigation**: Breadcrumb, Menubar, Navigation Menu, Pagination
-- **Overlay**: Dialog, Sheet, Popover, Tooltip, Hover Card
-- **Data Display**: Badge, Avatar, Calendar
+- **Modern Browsers**: Chrome, Firefox, Safari, Edge
+- **Mobile**: iOS Safari, Chrome Mobile
+- **Features**: Canvas API, Web Audio API, CSS Animations
 
-### 📊 Advanced Data Features
-- **Tables**: Powerful data tables with sorting, filtering, pagination (TanStack Table)
-- **Charts**: Beautiful visualizations with Recharts
-- **Forms**: Type-safe forms with React Hook Form + Zod validation
+## 📝 License
 
-### 🎨 Interactive Features
-- **Animations**: Smooth micro-interactions with Framer Motion
-- **Drag & Drop**: Modern drag-and-drop functionality with DND Kit
-- **Theme Switching**: Built-in dark/light mode support
+This project is open source and available under the MIT License.
 
-### 🔐 Backend Integration
-- **Authentication**: Ready-to-use auth flows with NextAuth.js
-- **Database**: Type-safe database operations with Prisma
-- **API Client**: HTTP requests with Axios + TanStack Query
-- **State Management**: Simple and scalable with Zustand
+## 🙏 Acknowledgments
 
-### 🌍 Production Features
-- **Internationalization**: Multi-language support with Next Intl
-- **Image Optimization**: Automatic image processing with Sharp
-- **Type Safety**: End-to-end TypeScript with Zod validation
-- **Essential Hooks**: 100+ useful React hooks with ReactUse for common patterns
-
-## 🤝 Get Started with Z.ai
-
-1. **Clone this scaffold** to jumpstart your project
-2. **Visit [chat.z.ai](https://chat.z.ai)** to access your AI coding assistant
-3. **Start building** with intelligent code generation and assistance
-4. **Deploy with confidence** using the production-ready setup
+- Happy Diwali to everyone celebrating!
+- Built with modern web technologies
+- Inspired by traditional Diwali celebrations
+- Optimized for performance and accessibility
 
 ---
 
-Built with ❤️ for the developer community. Supercharged by [Z.ai](https://chat.z.ai) 🚀
+**Wishing you a very Happy Diwali! 🪔✨🎆**
+
+May this festival of lights bring joy, prosperity, and happiness to your life.
