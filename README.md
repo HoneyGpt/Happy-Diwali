@@ -32,9 +32,9 @@ A stunning, interactive Diwali celebration web experience built with Next.js 15,
 
 ### 🎮 Interactive Controls
 - Toggle auto-fireworks for continuous display
-- Sound effects toggle (using Web Audio API)
 - Theme selector for different moods
 - Real-time statistics display
+- Cute, compact control panel
 
 ### 📱 Responsive Design
 - Mobile-optimized performance
@@ -50,7 +50,6 @@ A stunning, interactive Diwali celebration web experience built with Next.js 15,
 - **Styling**: Tailwind CSS 4
 - **UI Components**: Custom components with shadcn/ui patterns
 - **Animations**: CSS animations and Canvas API
-- **Audio**: Web Audio API for sound effects
 - **Performance**: Optimized for mobile and desktop
 
 ## 🚀 Getting Started
@@ -81,7 +80,6 @@ A stunning, interactive Diwali celebration web experience built with Next.js 15,
 
 ### Customizing Experience
 - **Themes**: Choose between Night, Dawn, and Sunset themes
-- **Sound**: Toggle sound effects on/off (experimental)
 - **Performance**: Automatically optimized for your device
 
 ### Mobile Experience
@@ -106,9 +104,9 @@ A stunning, interactive Diwali celebration web experience built with Next.js 15,
 - Water reflections
 
 ### Atmospheric Details
-- Parallax star field
-- Moon surface texture
-- Cloud movement
+- Enhanced star field with multiple star types
+- Realistic moon with detailed craters
+- Atmospheric layers and nebula clouds
 - City lights
 - Water shimmer effects
 
@@ -119,13 +117,6 @@ A stunning, interactive Diwali celebration web experience built with Next.js 15,
 - **Memory Management**: Proper cleanup of animations and event listeners
 - **Responsive Images**: Scales appropriately for different screen sizes
 - **Lazy Loading**: Components load as needed
-
-## 🎵 Audio Features
-
-- **Web Audio API**: Procedural sound generation
-- **Firework Sounds**: Explosion effects synthesized in real-time
-- **Ambient Audio**: Background atmosphere (optional)
-- **Performance**: Optimized audio processing
 
 ## 🌟 Special Effects
 
@@ -158,8 +149,10 @@ src/
 │   ├── Moon.tsx          # Moon component
 │   ├── Cityscape.tsx     # City background
 │   ├── Greeting.tsx      # Welcome message
-│   ├── SoundEffects.tsx  # Audio system
-│   └── InteractiveControls.tsx # Control panel
+│   ├── InteractiveControls.tsx # Control panel
+└── public/
+    ├── favicon.png       # Diwali favicon
+    └── icon-512.png      # Additional icon size
 ```
 
 ### Key Features
@@ -173,7 +166,7 @@ src/
 
 - **Modern Browsers**: Chrome, Firefox, Safari, Edge
 - **Mobile**: iOS Safari, Chrome Mobile
-- **Features**: Canvas API, Web Audio API, CSS Animations
+- **Features**: Canvas API, CSS Animations
 
 ## 📝 License
 
